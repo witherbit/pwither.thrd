@@ -5,6 +5,25 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>pwither.thrd</Title>
     <Authors>Witherbit</Authors>
+    <PackageProjectUrl>https://github.com/witherbit/pwither.thrd/tree/master</PackageProjectUrl>
+    <Copyright>© 2024 Witherbit</Copyright>
+    <PackageIcon>wbax.png</PackageIcon>
+    <Version>1.0.1</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\Tanukii\Downloads\wbax.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
